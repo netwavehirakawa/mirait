@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr"><!-- InstanceBegin template="/Templates/common.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>主な機能┃スマートデバイスで屋外業務を効率化するImageGate(R)(タブレット向けアプリ）｜ミライト情報システム</title>
+<!-- InstanceEndEditable -->
+<meta name="description" content="主な機能┃ImageGate（イメージゲート）は電子化した図面や帳票とタブレットを使って工事現場や工業における現場作業の効率化、ペーパレス化、作業品質の向上を実現する、スマートデバイス時代の業務効率化ソリューションです。" />
+<meta name="keywords"　content="ペーパレス化,図面電子化,現場業務,IBM Partnership,ImageGate,スマートデバイス,イメージゲート,ミライト情報システム,図面,画像,点検,報告" />
+<meta name="robots" content="index,follow" />
+<link rel="stylesheet" href="../../css/normalize.css" type="text/css" />
+<link rel="stylesheet" href="../../css/style.css" type="text/css">
+<link rel="stylesheet" href="../../css/sec.css" type="text/css">
+<link rel="shortcut icon" href="../../img/favicon.ico" />
+<!--[if lte IE 6]>
+<script type="text/javascript" src="js/DD_belatedPNG.js">
+</script>
+<script type="text/javascript">DD_belatedPNG.fix('.png_bg');</script>
+<![endif]-->
+<!--[if lt IE 9]>
+<script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="../../js/page-scroller.js"></script>
+<script type="text/javascript" src="../../js/util.js"></script>
+<script type="text/javascript" src="../../js/jquery.cookie.js" charset="UTF-8" ></script>
+<script src="//www.google.co.jp/jsapi" type="text/javascript"></script>
+<script type="text/javascript" src="../../js/gsearch.js" charset="UTF-8" ></script>
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<!-- InstanceParam name="id" type="text" value="product" -->
+<!-- InstanceParam name="class" type="text" value="sec" -->
+<!-- InstanceParam name="content" type="text" value="株式会社ミライト情報システムの「IBM Worklight」" -->
+<!-- InstanceParam name="keyword" type="text" value="ミライト情報システム,IBM Partnership,IBM Worklight" -->
+<!-- InstanceParam name="charset" type="text" value="utf-8" -->
+</head>
+
+<body id="product" class="sec">
+
+<div id="wrap">
+<header>
+<h1><a href="../../index.html"><img src="../../img/common/logo.jpg" width="343" height="51" alt="株式会社ミライト情報システム"/></a></h1>
+<div class="english"><a href="../../en/"><img src="../../img/common/btn_en.gif" width="110" height="25" alt=""/></a></div>
+<script>
+  (function() {
+    var cx = '000411778068615474582:gzyokfyygy8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+
+<nav>
+<ul>
+<li class="nav01"><a href="../../index.html">HOME</a></li>
+<li class="nav02"><a href="../../product">事業紹介</a></li>
+<li class="nav03"><a href="../../news">ニュース</a></li>
+<li class="nav04"><a href="../../event">イベント・セミナー</a></li>
+<li class="nav05"><a href="../../company">会社情報</a></li>
+<li class="nav06"><a href="../../job">採用情報</a></li>
+<li class="nav07"><a href="../../contact" target="_blank">お問い合わせ</a></li>
+</ul>
+</nav>
+
+</header>
+<!-- InstanceBeginEditable name="contents" -->
+
+<div id="intro" class="clearfix">
+<div class="wrapH2">
+<div class="inner">
+<h2>ImageGate<span style="vertical-align: super;font-size:14px;">&reg;</span></h2>
+<ol class="topicPath">
+<li><a href="../../index.html"><img src="../../img/common/icon_home.gif" width="17" height="22" alt="HOME"/></a></li>
+<li><a href="../index.html"　alt="ソリューション">Solution</a></li>
+<li>ImageGate</li>
+</ol>
+</div>
+</div>
+
+<div class="lead">
+	<p>図面や写真をスマートデバイスに取り込んで、点検・報告・商談等の業務効率アップやペーパレス化、標準化を実現する、<br/>スマートデバイス向け業務アプリを短納期でご提供します。</p>
+</div>
+<!--/#intro--></div>
+
+<div id="main" class="clearfix">
+<div id="contents">
+
+<!--<h3>屋外業務をスマートデバイスで効率化する</h3>-->
+
+<p align="center" style="margin:0;padding:0;"><img src="img/ImageGate_03_01.png" width="650" alt="工事現場で、店頭で、商談で、タブレットで。imageGateイメージゲートはスマートデバイス上のイメージ（図面、写真、絵）を、さまざまな業務システムの入口として活用し、スマートデバイス時代の業務効率アプリをじつげんします。"/></p>
+
+
+<div id="imagegate_menu">
+<ul>
+<li><a href="index.html">製品概要</a></li>
+<li class="now"><a href="02.html">機能</a></li>
+<li><a href="03.htm">特長</a></li>
+<li><a href="04.htm">事例</a></li>
+<li><a href="#" style="line-height:105%;">動作デモ<br/>
+<font style="font-size:10px;line-height:105%;">準備中</font></a></li>
+</ul> 
+</div>
+
+<div class="clearfix"> </div>
+
+<div class="secH3">
+<h4>ImageGateは、管理端末用機能（ＩＧＭａｎａｇｅｒ）と<br/>
+スマートデバイス用アプリ（ＩｍａｇｅＧａｔｅ）で構成されています。</h4>
+<img src="img/imagegate_04.jpg" alt="図面やマニュアルをタブレットで現場へ" width="200" align="right" style="margin:0 10px; float:right;vertical-align:bottom;">
+</div>
+
+
+<div class="secH3">
+<h3>ＩＧＭａｎａｇｅｒ<span style="vertical-align: super;font-size:9px;">&reg;</span>の主な機能</h3>
+<dl class="dl02">
+		<dt>【ブック機能】◎イメージ（画像）の登録とツール化</dt>
+		<dd> イメージ登録・タップエリア指定・イベント設定・ブック管理
+<br/>指定できるイベント<br/>
+リンク ：他の画像へ遷移する
+<br/>チェック ：領域内に収まる☑マークを付与する
+<br/>日時 ：自動でタイムスタンプを付与する
+<br/>カメラ ：内臓カメラを起動するし、撮影結果を記録する
+<br/>メモ ：文字列を入力する
+<br/>外部システム連携 ：URL等で指定される他システムを呼び出す</dd>
+		<dt>【タスク機能】◎指定ユーザへの作業指示作成</dt>
+		<dd>タスクの登録設定・ブック利用ユーザの指定</dd>
+		<dt>【共有機能】◎現場情報・現場報告の共有機能</dt>
+		<dd>現場の入力・写真撮影・書き込み結果が反映されたブックの閲覧/DBに登録された情報の閲覧</dd>
+
+</dl>
+</div>
+
+
+<div class="secH3">
+<h3>ＩｍａｇｅＧａｔｅ<span style="vertical-align: super;font-size:9px;">&reg;</span>の主な機能</h3>
+<dl class="dl02">
+		<dt>【ブック機能】◎イメージ（画像）の登録と活用機能</dt>
+		<dd> イメージ登録・エリア指定・イベント設定・ブック管理（ＩＧＭａｎａｇｅｒ）／イメージ送受信・データ入力・手書きメモ・スタンプ・写真添付・メール送信（ＩｍａｇｅＧａｔｅ）</dd>
+		<dt>【タスク機能】◎作業指示作成</dt>
+		<dd>タスクの登録設定・指定ユーザへの作業指示（ＩＧＭａｎａｇｅｒ）／タスク（作業指示）のダウンロード（ＩｍａｇｅＧａｔｅ）</dd>
+		<dt>【報告機能】◎現場情報・現場報告の共有機能</dt>
+		<dd>現場の入力・書き込み結果の閲覧（ＩＧＭａｎａｇｅｒ）／他ユーザの入力・書き込み結果の閲覧（ＩｍａｇｅＧａｔｅ） </dd>
+		<dt>【開発プラットフォーム】◎MobileFirst Platform Foundationを利用</dt>
+		<dd>モバイルアプリ開発の効率化やアプリのガバナンスやセキュリティー向上を実現する、モバイルアプリ開発プラットフォーム「<a href="../worklight/">IBM MobileFirst Platform Foundation </a>（旧名：worklight）」を使用しています。</dd>
+		<dt>【既存タブレットを活用】◎iOS、Androidの両OSで使用OK</dt>
+		<dd><a href="../worklight/">IBM Worklight </a>の特徴の１つである1ソースマルチOS対応により、iPad、Androidタブレットのどちらでも使用できます。</dd>
+		<dt>【データベース】◎MongoDB、Cloudant対応</dt>
+		<dd>ドキュメント指向データベース<a href="../../opensource/nosql.html">MongoDB</a>、Cloudantをサポート、業務の変化にも柔軟に対応できます。</dd>
+</dl>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="secH3">
+<div class="box_contact">
+<h3 style="background-color:#e60027;">ImageGate<span style="vertical-align: super;font-size:14px;">&reg;</span>に関するお問い合わせ</h3>
+<p>どうぞお気軽にお問い合わせください。</p>
+<table>
+	<tr>
+	<td><img src="../../img/ecalic009_025.png" alt="電話でのお問い合わせ"/>電話でのお問い合わせ</td>
+	<td><img src="../../img/ecalic009_026.png" alt="フォームからのお問い合わせ"/>フォームからのお問い合わせ</td>
+	</tr>
+	<tr>
+	<td><p>本社：<br>
+	<span class="textTEL" >03-5843-6208</span></p>
+<p>大阪オフィス：<br>
+	<span class="textTEL" >06-6446-3358</span></td>
+	<td><button class="btn_contact02" id="btn_contact02" onClick="window.open('../../contact/')">お問い合わせフォームは<br>こちら</button></td>
+	</tr>
+</table>
+</div>
+</div>
+
+
+<div style="font-size:12px;width:100%;text-align:center;">
+"ImageGate"は株式会社ミライト情報システムの登録商標です。
+</div>
+
+
+
+<!--/#contents--></div>
+
+<div id="side">
+<div class="sideMenu">
+
+
+<a href="../../contact/" target="_blank"><img  src="../../img/toiawase_side_imagegate02.png" alt="ImageGateへのお問い合わせ、資料請求かこちらから。画像をクリックしてwebフォームへ。お電話でも受け付けています。" onmouseover="this.src='../../img/toiawase_side_imagegate02on.png'" onmouseout="this.src='../../img/toiawase_side_imagegate02.png'" /></a>
+
+<br/><br/>
+
+<div class="sideTitle">ソリューション</div>
+<ul>
+<li><a href="../../ibm/worklight/index.html">Rapid Mobile Solution</a></li>
+<li><a href="../06/">e-zyAD</a></li>
+<li><a href="../07/">ECM（i2D）</a></li>
+<li><a href="../08/">映像配信（G-Matrix）</a></li>
+
+<li><a href="../03/">人流計測ソリューション</a>
+<ul>
+<li><a href="../03/01.html">導入事例</a></li>
+</ul>
+</li>
+<li><a href="../wifi_alvarion/index.html">無線LAN構築<br/>
+（Wi-Fiソリューション）</a>
+<ul>
+<li><a href="../wifi_alvarion/hotelgreenhill.html">導入事例</a></li>
+</ul>
+<li><a href="#">ImageGate<br/>（スマートデバイスアプリ）</a></li>
+<li><a href="../05/">e-店舗</a>
+<ul>
+<li><a href="../05/02.html">機能システム要件</a></li>
+<li><a href="../05/01.html">導入事例</a></li>
+</ul>
+</li>
+<li><a href="../../opensource/nosql.html">NoSQL／MongoDB</a></li>
+</div>
+
+<!--/#side--></div>
+<!--/##main--></div>
+
+
+<!-- InstanceEndEditable -->
+<footer>
+<div id="prdlink" class="clearfix">
+<div class="inner">
+<div id="pageTop"><a href="#top"><img src="../../img/common/pageTop.gif" width="40" height="40" alt="このページのTOPへ"/></a></div>
+
+<div class="col">
+<dl>
+<dt><a href="../../ibm/index.html">IBM Partnership</a></dt>
+<dd><a href="../../ibm/worklight/index.html">IBM MobileFirst Platform Foundation <br/>&nbsp;&nbsp;(旧名 IBM Worklight Foundation )</a></dd>
+<dd><a href="../../ibm/softlayer/index.html">SoftLayer</a></dd>
+<dd><a href="../../ibm/wsc/index.html">WebSphere Commerce</a></dd>
+</dl>
+
+<dl>
+<dt><a href="../../cloud/index.html">Cloud</a></dt>
+<dd><a href="../../ibm/softlayer/index.html">MIRACLE(クラウド総合支援サービス)</a></dd>
+</dl>
+
+<dl>
+<dt>NoSQL</dt>
+<dd><a href="../../opensource/nosql.html">MongoDB</a></dd>
+</dl>
+
+
+</div>
+
+<div class="col">
+<dl>
+<dt><a href="index.html">Solution</a></dt>
+<dd><a href="../08/index.html">映像ソリューション（G-Matrix)</a></dd>
+<dd><a href="../../ibm/worklight/index.html">Rapid Mobile Solution(Worklight)</a></dd>
+<dd><a href="../06/index.html">e-zyAD（ADユーザ管理）</a></dd>
+<dd><a href="../07/index.html">ECM(i2D)</a></dd>
+<dd><a href="../03/index.html">人流計測ソリューション</a></dd>
+<dd><a href="../wifi_alvarionindex.html">屋外・屋内 無線LAN構築 Wi-Fi</a></dd>
+</dl>
+
+<dl>
+<dt>Smart device</dt>
+<dd><a href="#">ImageGate</a></dd>
+<dd><a href="../../solution/05/index.html">e-店舗</a></dd>
+</dl>
+</div>
+
+<div class="col end">
+<dl>
+<dt><a href="../../smartphone/index.html">NTT Partnership</a></dt>
+<dd><a href="../../smartphone/smart_plus/index.html">SmartPlus（モバイル施工点検）</a></dd>
+<dd><a href="../01/index.html">工事業向けソリューション</a></dd>
+</dl>
+
+<dl>
+<dt><a href="../../package/index.html">System Integration</a></dt>
+<dd><a href="../../package/rakuraku_fw2/index.html">楽々FrameworkII</a></dd>
+<dd><a href="../../package/rakuraku_wf2/index.html">楽々WorkflowII</a></dd>
+<dd><a href="../../package/quick_solution/index.html">QuickSolution</a></dd>
+<dd><a href="../../package/document_plus/index.html">楽々Documet Plus</a></dd>
+<dd><a href="../../package/super_stream/index.html">SuperStream</a></dd>
+<dd><a href="../../product/index.html#gosyo">豪商</a></dd>
+</dl>
+</div>
+
+</div>
+</div>
+
+<div class="inner">
+<div class="footInfo clearfix">
+<address>
+<strong>株式会社 ミライト情報システム</strong><br>
+〒141-0031<br>
+東京都品川区西五反田2-23-2
+</address>
+<div class="privacy"><a href="http://privacymark.jp/" target="_blank"><img src="../../img/common/img_privacy.gif" width="75" height="75" alt="プライバシーマーク"/></a></div>
+<div class="privacy"><img src="../../img/common/img_juse.gif" width="101" height="75" alt="JUSE"/></div>
+</div>
+<div class="copy"><img src="../../img/common/copy.gif" width="411" height="13" alt="Copyright(C) 2012 MIRAIT Information Systems Co., Ltd. All Rights Reserved."/></div>
+</div>
+
+</footer>
+
+<!--#wrap--></div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44955087-1', 'miraitsystems.jp');
+  ga('send', 'pageview');
+
+</script>
+</body>
+<!-- InstanceEnd --></html>
