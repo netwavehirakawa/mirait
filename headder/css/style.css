@@ -16,7 +16,7 @@ background:#FBFBFB;
 margin:0;
 height:100%;
 padding:0;
-text-align:center;
+/*text-align:center;*/
 }
 
 
@@ -188,6 +188,25 @@ button.btn_contact {
 		display:block;
 	}
 }
+
+
+@media screen and (max-width: 768px) {
+
+	/* **************************
+	  共通
+	************************** */
+	.sp_block {
+		display: block !important;
+	}
+	.pc_block {
+		display: none !important;
+	}
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+}
+
 
 .slicknav_icon,
 .slicknav_icon span {
@@ -415,14 +434,82 @@ hr{display:none}
 
 /*footer*/
 
+
+/*imagegate*/
+
+#imagegate_menu{
+	border:0.2px solid #fff;
+	background-color:#ffffff;
+	margin-top: -5px; 
+	margin-bottom: 20px; 
+	margin-left: 0; 
+	margin-right: 0; 
+	height:31px;
+}
+
+#imagegate_menu ul{ 
+position: relative;
+margin: 0; 
+padding: 0; 
+list-style: none; 
+}
+#imagegate_menu li{ 
+padding: 0; 
+margin: 0; 
+float: left;
+}
+#imagegate_menu li a{
+display: block; 
+background: url(../img/imagegatemenu_01.jpg) no-repeat;
+border: 1px;
+padding: 3px;
+text-decoration: none;
+color: #333;
+width: 130px; 
+height: 31px;
+margin: 0px;
+text-align: center;
+font-size: 14px;
+}
+#imagegate_menu li a:hover{
+display: block; 
+background: url(../img/imagegatemenu_01.jpg) no-repeat;
+text-decoration: underline;
+color: #0000cd;
+margin: 0px;
+}
+#imagegate_menu li.now a{
+display: block; 
+background: url(../img/imagegatemenu_03.jpg) no-repeat;
+border: 1px;
+padding: 3px;
+text-decoration: none;
+color: #fcfcfc;
+width: 130px; 
+height: 31px;
+margin: 0px;
+text-align: center;
+font-size: 14px;
+}
+#imagegate_menu li.now a:hover{
+display: block; 
+background: url(../img/imagegatemenu_03.jpg) no-repeat;
+text-decoration: none;
+color: #fcfcfc;
+margin: 0px;
+}
+
+
+
+
+
+
 /* **************************
   footer
 ************************** */
 .ftr_wrap a:hover {
 	color: #fff;
 }
-
-/* footerグローバル*/
 .ftr_nav {
 	background: #eee;
 	padding-top: 50px;
@@ -479,7 +566,6 @@ hr{display:none}
 	padding-left: 20px;
 }
 
-/* footerメニュー*/
 .ftr_links {
 	font-size: 11px;
 	background: #fff;
@@ -549,13 +635,15 @@ hr{display:none}
 	padding: 0 10px;
 	box-sizing: border-box;
 }
-.ftr_copy_inr p {
+.ftr_copy_inr {
+	padding: 0 40px;
+}
+.ftr_copy_inr + p {
 	padding-top: 20px;
 	font-size: 12px;
 	text-align: center;
 }
 
-/* トップへ戻る */
 .ftr_gotop {
 	position: absolute;
 	top: -70px;
@@ -650,79 +738,15 @@ hr{display:none}
 	.ftr_copy_inr {
 		width: 100%;
 	}
-	.ftr_copy_inr p {
+	.ftr_copy_inr + p {
+		padding-right: 10px;
+		padding-: 10px;
 		padding-top: 20px;
-		font-size: 10px;
+		font-size: 12px;
+		text-align: center;
 	}
-
 }
 
-
-
-
-/*imagegate*/
-
-#imagegate_menu{
-	border:0.2px solid #fff;
-	background-color:#ffffff;
-	margin-top: -5px; 
-	margin-bottom: 20px; 
-	margin-left: 0; 
-	margin-right: 0; 
-	height:31px;
-}
-
-#imagegate_menu ul{ 
-position: relative;
-margin: 0; 
-padding: 0; 
-list-style: none; 
-}
-#imagegate_menu li{ 
-padding: 0; 
-margin: 0; 
-float: left;
-}
-#imagegate_menu li a{
-display: block; 
-background: url(../img/imagegatemenu_01.jpg) no-repeat;
-border: 1px;
-padding: 3px;
-text-decoration: none;
-color: #333;
-width: 130px; 
-height: 31px;
-margin: 0px;
-text-align: center;
-font-size: 14px;
-}
-#imagegate_menu li a:hover{
-display: block; 
-background: url(../img/imagegatemenu_01.jpg) no-repeat;
-text-decoration: underline;
-color: #0000cd;
-margin: 0px;
-}
-#imagegate_menu li.now a{
-display: block; 
-background: url(../img/imagegatemenu_03.jpg) no-repeat;
-border: 1px;
-padding: 3px;
-text-decoration: none;
-color: #fcfcfc;
-width: 130px; 
-height: 31px;
-margin: 0px;
-text-align: center;
-font-size: 14px;
-}
-#imagegate_menu li.now a:hover{
-display: block; 
-background: url(../img/imagegatemenu_03.jpg) no-repeat;
-text-decoration: none;
-color: #fcfcfc;
-margin: 0px;
-}
 
 
 

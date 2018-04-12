@@ -883,7 +883,7 @@
 	padding: 0 10px;
 	box-sizing: border-box;
 }
-.ftr_copy_inr p {
+.ftr_copy_inr + p {
 	padding-top: 20px;
 	font-size: 12px;
 	text-align: center;
@@ -895,8 +895,6 @@
 	top: -70px;
 	right: 10px;
 }
-
-
 
 
 	/* *************************************************************
@@ -920,7 +918,6 @@
 		max-width: 100%;
 		height: auto;
 	}
-
 
 
 	/* **************************
@@ -1164,7 +1161,6 @@
 	}
 
 
-
 	/* **************************
 	  footer
 	************************** */
@@ -1250,11 +1246,16 @@
 	.ftr_copy_inr {
 		width: 100%;
 	}
-	.ftr_copy_inr p {
-		padding-top: 20px;
-		font-size: 10px;
+	.ftr_copy_inr {
+		padding: 0 40px;
 	}
-
+	.ftr_copy_inr + p {
+		padding-right: 10px;
+		padding-: 10px;
+		padding-top: 20px;
+		font-size: 12px;
+		text-align: center;
+	}
 }
 
 
