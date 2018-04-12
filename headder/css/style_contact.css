@@ -1,0 +1,415 @@
+@charset "utf-8";
+
+/*************************************************/
+/*   normal 13px                                                 */
+/*  10px 77% / 11xp 85% / 12px 93% 　             */
+/*  13px 100% / 14px 108% / 15px 116%           */
+/*  16px 124% / 17px 131% / 18px 139%           */
+/*  19px 147%  / 20px 154%  / 21px 162%         */
+/*  22px 169%  / 23px 177%  / 24px 185%         */
+/*  25px 192%  / 26px 200%                               */
+/*                                                                        */
+/*************************************************/
+
+body{
+background:#FBFBFB;
+margin:0;
+height:100%;
+padding:0;
+text-align:center;
+}
+
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, table, th, td, address {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font: 16px/160% verdana, "ヒラギノ角ゴ Pro W4", ヒラギノ角ゴ Pro W4, Hiragino Kaku Gothic Pro, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Osaka, sans-serif;
+}
+
+* + html body div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fildset, input, textarea, p, blockquote, table, th, td, address {
+  font: 16px/160% "メイリオ", Meiryo, verdana, "ヒラギノ角ゴ Pro W4", ヒラギノ角ゴ Pro W4, Hiragino Kaku Gothic Pro, "ＭＳ Ｐゴシック", Osaka, sans-serif;
+}
+
+select,
+input,
+button,
+button01,
+textarea{
+font-size:99%;}
+
+/*2014/11/14 add by baba --個人情報保護ページのボタン--*/
+button.button01 {
+font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	color: #ffffff;
+	padding: 10px 20px;
+	background: -moz-linear-gradient(
+		top,
+		#42aaff 0%,
+		#003366);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#42aaff),
+		to(#003366));
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #003366;
+	-moz-box-shadow:
+		0px 1px 5px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.5);
+	-webkit-box-shadow:
+		0px 1px 5px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.5);
+	box-shadow:
+		0px 1px 5px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.5);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,1),
+		0px 1px 0px rgba(255,255,255,0.3);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=135,strength=5,enabled=true)";
+  	filter: progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=135,strength=5,enabled=true); /* IE5.5+ */
+  	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#42aaff', endColorstr='#003366')";
+  	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#42aaff', endColorstr='#003366'); /* IE5.5+ */
+
+}
+.button01_1507{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	color: #fdfdfd;
+	padding: 10px 20px;
+	-ms-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #003366;
+	box-shadow:
+		0px 1px 5px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.5);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,1),
+		0px 1px 0px rgba(255,255,255,0.3);
+    background: #ff8c00;
+    /*background: url(デフォルトで表示させたい背景画像のURL) no-repeat;*/
+}
+.button01_1507:hover{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	color: #b0c4de;
+	padding: 10px 20px;
+	border-radius: 10px;
+	border: 1px solid #003366;
+	box-shadow:
+		0px 1px 5px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.5);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,1),
+		0px 1px 0px rgba(255,255,255,0.3);
+    background: #003366;
+    /*background: url(デフォルトで表示させたい背景画像のURL) no-repeat;*/
+}
+.contact_box{
+	background-color:#E6E6FA;
+	border:1px solid #4682B4;
+	width:640px;
+	padding:20px 20px 0;
+	margin-bottom:30px;
+
+}
+
+input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+table{
+border-collapse:collapse;
+border-spacing:0;
+font-size:inherit;
+}
+
+textarea,input{margin:0;padding:0}
+
+caption,th{text-align:left}
+td,th{vertical-align: top}
+
+fieldset,img,abbr{border:none}
+li{list-style-type:none}
+hr{display:none}
+
+#contents a,
+#contents  a:link{color:#3A280E; text-decoration:underline}
+#contents  a:visited{}
+#contents  a:hover{color:#1A5DBF;}
+
+.clear { clear:both;}
+
+/* clerfix */
+.clearfix:after {
+  content: ".";
+  display: block; 
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.clearfix {
+  min-height: 1px;
+}
+
+* html .clearfix {
+  height: 1px;
+  /*\*//*/
+  height: auto;
+  overflow: hidden;
+  /**/
+}
+
+
+/***********************************************/
+/* layout divs                                                   */
+/***********************************************/
+
+#wrap{
+	min-width:980px;
+	width:expression(document.body.clientWidth > 982? "980px" : "auto");
+	text-align:left;
+}
+/*header*/
+header{position:relative; height:100px;}
+header h1{
+	position:absolute;
+	top:17px;
+	left:30px;
+}
+
+header .english{
+	position:absolute;
+	top:0;
+	right:20px;
+}
+header #___gcse_0{
+	position:absolute;
+	top:35px;
+	right:20px;
+}
+header .cse .gsc-control-cse,
+header .gsc-control-cse,
+header form.gsc-search-box,
+header table.gsc-search-box,
+header .gsib_a,
+header table.gsc-search-box td.gsc-input,
+header .gsc-search-box-tools .gsc-search-box .gsc-input{padding:0;margin:0;}
+header .gsc-input-box{height:auto;}
+header .gsc-control-cse .gsc-control-wrapper-cse{position:relative;}
+header .gsc-control-cse #gsc-iw-id1{
+	position:absolute;
+	top:2px;
+	left:0
+}
+header table.gsc-search-box{width:340px;}
+header input.gsc-input,
+header .gsc-input-box,
+header .gsc-input-box-hover,
+header .gsc-input-box-focus{ 
+    border: 1px solid #CCCCCC;
+	font-size:85%;
+	padding: 0 10px; 
+    height: 25px;
+	width: 250px;
+}
+/*
+header .search{
+	position:absolute;
+	top:37px;
+	right:20px;
+}
+header .search #searchform{  
+    position: relative;
+}  
+header .search #keywords{  
+    background: #F3F3F3;  
+    border: 1px solid #CCCCCC;
+	font-size:85%;
+	padding: 0 10px; 
+    height: 23px;
+	width: 250px;
+}  
+header .search #searchBtn{  
+    position: absolute;  
+    top: 0;
+    _top: 1px;  
+    right: 0;  
+}
+*:first-child + html header .search #searchBtn{  
+    top: 1px;  
+}  */
+header nav{
+	background:url(../img/common/bg_nav.gif) repeat-x;
+	border-bottom:1px solid #2B2F3B;
+	position:absolute;
+	top:85px;
+	left:0;
+	width:100%;
+}
+header nav ul{
+	background:url(../img/common/line_nav.gif) no-repeat left;
+	width:100%;
+}
+header nav ul li{
+	background:url(../img/common/line_nav.gif) no-repeat right;
+	font-size:93%;
+	height:40px;
+	float:left;
+	padding-top:20px;
+	text-align:center;
+	width:14%;
+}
+header nav li.nav01{width:10%;}
+header nav li.nav04{width:20%;}
+
+header nav li a{text-decoration:none; color:#000000;}
+
+/*--------index------------*/
+
+#index #visual ul li{
+	height:125px;
+	float:left;
+	text-align:center;
+	padding-top:35px;
+	width:33%;
+}
+#index #visual.wide ul li{
+	height:170px;
+	padding-top:80px;
+}
+#index #visual ul li.prd01{background:url(../img/index/bg_prd01.jpg) repeat center center;}
+#index #visual ul li.prd02{background:url(../img/index/bg_prd02.jpg) repeat center center; width:34%;}
+#index #visual ul li.prd03{background:url(../img/index/bg_prd03.jpg) repeat center center;}
+#index #visual ul li.prd04{background:url(../img/index/bg_prd04.jpg) repeat center center;}
+#index #visual ul li.prd05{background:url(../img/index/bg_prd05.jpg) repeat center center; width:34%;}
+#index #visual ul li.prd06{background:url(../img/index/bg_prd06.jpg) repeat center center;}
+
+#index #visual .productA,#index #visual .productB{clear:both;}
+
+#index .topNews{
+	margin:0 auto 10px;
+	width:980px
+}
+#index .topNews .inner{
+	padding:20px;
+	border:#000000;
+	width:640px;
+	float:left;
+	}
+#index .topNews .nTopic{
+	margin-bottom:20px;
+}
+#index .topNews dl dt{
+	clear:both;
+	font-weight:bold;
+	float:left;
+	margin-right:15px;
+	margin-bottom:5px;
+}
+#index .topNews dl dd{
+	float:left;
+	margin-right:5px;
+}
+#index .topNews p{clear:both;}
+
+#index .topNews .inner2{
+	padding:20px;
+	width:260px;
+	float:right;
+	}
+
+/*footer*/
+
+footer{}
+footer .inner{
+	color:#fff;
+	padding:0 20px;
+	position:relative;
+	margin:0 auto;
+	width:940px;
+}
+footer .inner #pageTop{
+	position:absolute;
+	right:20px;
+	top:-65px;
+}
+
+footer .inner a{
+	color:#ddd;
+	font-size:93%;
+	text-decoration:none;
+}
+footer .inner a:hover{color:#fff;}
+
+footer .sitelink{background:#000000; padding:15px 0; border-bottom:1px solid #2B2F3B;}
+footer .sitelink li{
+	display:inline;
+	margin-right:15px;
+}
+footer .sitelink .link01 li a{
+	background:url(../img/common/link01.png) no-repeat left center;
+	padding-left:20px;
+}
+footer #prdlink{background:#2B2F3B; padding:45px 0 20px; border-top:1px solid #000;}
+footer #prdlink .col{
+	float:left;
+	margin-right:30px;
+	width:290px;
+}
+footer #prdlink .end{margin-right:0;}
+footer #prdlink dl{
+	margin-bottom:30px;
+}
+footer #prdlink dl dt{
+	color:#ddd;
+	font-size:108%;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+footer #prdlink dl dd{
+	color:#ddd;
+	background:url(../img/common/line_low.png) repeat-x bottom;
+	padding-bottom:5px;
+	margin-bottom:5px;
+}
+footer #prdlink dl dd a{
+	background:url(../img/common/icon_01.png) no-repeat left center;
+	padding-left:15px;
+}
+footer .bnrlink{padding:15px 0 0; border-bottom:1px solid #2B2F3B; margin-bottom:10px;}
+footer .bnrlink dl{
+	float:left;
+	margin-right:15px;
+}
+footer .bnrlink dl.end{margin-right:0;}
+footer .bnrlink dd{font-size:85%;}
+footer .bnrlink dd a,
+footer .bnrlink dd a:hover{color:#000;}
+	
+footer .footInfo{
+	padding:20px 0;
+	margin:0 auto;
+	width:50%;
+}
+footer .footInfo address{
+	color:#000;
+	float:left;
+}
+footer .footInfo .privacy{
+	float:right;
+	margin-left:10px;
+}
+footer .copy{ clear:both; text-align:center; margin-bottom:20px;}
+
+
+/*テキストボックスの背景色を変える- add 2014.05.21 -*/
+input:focus, textarea:focus {
+background-color: #bde9ba;
+}
