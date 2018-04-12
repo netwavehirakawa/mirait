@@ -8,9 +8,12 @@
 <meta name="description" content="映像ソリューション「G-Matrix」。膨大な動画データの蓄積、配信、分析を素早く実行。大容量スイッチング性能「最大2.4G」。SD、HD、圧縮、非圧縮の映像ストリーミングに対応。高信頼のクラスタリング構成。運用コンソールにより系切替実施、運用計画立案。録画配信など。" />
 <meta name="keywords"　content="ストリーミング,映像配信,G-Matrix,中継,監視,録画配信" />
 <meta name="robots" content="index,follow" />
+<link rel="stylesheet" href="../../css/reset.css">
+<link rel="stylesheet" href="../../css/common.css">
 <link rel="stylesheet" href="../../css/normalize.css" type="text/css" />
 <link rel="stylesheet" href="../../css/style.css" type="text/css">
 <link rel="stylesheet" href="../../css/sec.css" type="text/css">
+<link rel="stylesheet" href="../../css/slicknav.min.css">
 <link rel="shortcut icon" href="../../img/favicon.ico" />
 <!--[if lte IE 6]>
 <script type="text/javascript" src="js/DD_belatedPNG.js">
@@ -44,53 +47,57 @@
   ga('send', 'pageview');
 
 </script>
+
+<script src="../../js/common.js"></script>
+<script src="../../js/swiper.min.js"></script>
+<script src="../../js/jquery.bgswitcher.js"></script>
+<script src="../../js/jquery.slicknav.min.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<script src="../../js/top.js"></script>
+<script>
+  var isSupportPicture = !!window.HTMLPictureElement;
+  if(!isSupportPicture){
+    document.createElement( "picture" );
+    document.write('<script src="assets/js/picturefill.min.js" async><\/script>');
+  }
+</script>
+
 </head>
 
 <body id="product" class="sec">
 
+  <header class="hdr_wrap">
+    <div class="hdr_inr">
+      <div class="hdr_logo">
+        <h1><a href="https://www.miraitsystems.jp/index.html"><img class="pc_block" src="../../../assets/images/logo.png" alt="株式会社ミライト情報システムロゴ"><img class="sp_block" src="../../../assets/images/sp/logo.png" alt="株式会社ミライト情報システムロゴ"></a></h1>
+      </div>
+      <div class="hdr_gnav">
+        <ul id="gnav" class="hdr_gnav_list">
+          <li class="hdr_gnav_item"><a href="https://www.miraitsystems.jp/index.html">ホーム</a></li>
+          <li class="hdr_gnav_item"><a href="https://www.miraitsystems.jp/product/">事業紹介</a></li>
+          <li class="hdr_gnav_item"><a href="https://www.miraitsystems.jp/news/">ニュース</a></li>
+          <li class="hdr_gnav_item"><a href="https://www.miraitsystems.jp/event/">イベント・セミナー</a></li>
+          <li class="hdr_gnav_item"><a href="https://www.miraitsystems.jp/company/">会社情報</a></li>
+          <li class="hdr_gnav_item"><a href="https://www.miraitsystems.jp/job/">採用情報</a></li>
+          <li class="hdr_gnav_item"><a href="https://www.miraitsystems.jp/contact/">お問い合わせ</a></li>
+          <li class="hdr_gnav_item"><a href="https://www.miraitsystems.jp/en/" class="lang_switch">English</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <!-- /header -->
+
 <div id="wrap">
-<header>
-<h1><a href="../../index.html"><img src="../../img/common/logo.jpg" width="343" height="51" alt="株式会社ミライト情報システム"/></a></h1>
-<div class="english"><a href="../../en/"><img src="../../img/common/btn_en.gif" width="110" height="25" alt=""/></a></div>
-<script>
-  (function() {
-    var cx = '000411778068615474582:gzyokfyygy8';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-        '//www.google.com/cse/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
-<gcse:search></gcse:search>
-
-<nav>
-<ul>
-<li class="nav01"><a href="../../index.html">HOME</a></li>
-<li class="nav02"><a href="../../product">事業紹介</a></li>
-<li class="nav03"><a href="../../news">ニュース</a></li>
-<li class="nav04"><a href="../../event">イベント・セミナー</a></li>
-<li class="nav05"><a href="../../company">会社情報</a></li>
-<li class="nav06"><a href="../../job">採用情報</a></li>
-<li class="nav07"><a href="../../contact" target="_blank">お問い合わせ</a></li>
-</ul>
-</nav>
-
-</header>
-<!-- InstanceBeginEditable name="contents" -->
-
 <div id="intro" class="clearfix">
 <div class="wrapH2">
-<div class="inner">
-<h2>映像ソリューション（G-Matrix）膨大な動画データを録画、配信、分析</h2>
+</div>
+<div class="inner mulch_line">
+<h2>映像ソリューション（G-Matrix）<br>膨大な動画データを録画、配信、分析</h2>
 <ol class="topicPath">
 <li><a href="../../index.html"><img src="../../img/common/icon_home.gif" width="17" height="22" alt="HOME"/></a></li>
 <li><a href="../index.html">ソリューション</a></li>
 <li>G-Matrix</lI>
 </ol>
-</div>
 </div>
 <div class="lead">
 <p>監視、遠隔会議、実況中継、デジタルサイネージなど多彩な用途に活用できる</p>

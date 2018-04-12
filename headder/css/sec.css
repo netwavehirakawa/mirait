@@ -23,6 +23,9 @@
 	width:940px;
 	margin-bottom: 15px;
 }
+.sec .wrapH2 + .mulch_line {
+	padding: 20px 0;
+}
 .sec .wrapH2 + .inner h2{
 	color:#000;
 	font-size:169%;

@@ -337,6 +337,7 @@ hr{display:none}
 #wrap{
 	width:expression(document.body.clientWidth > 982? "980px" : "auto");
 	text-align:left;
+	min-width: 980px;
 }
 
 

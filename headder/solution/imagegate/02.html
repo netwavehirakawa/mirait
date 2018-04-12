@@ -8,9 +8,12 @@
 <meta name="description" content="主な機能┃ImageGate（イメージゲート）は電子化した図面や帳票とタブレットを使って工事現場や工業における現場作業の効率化、ペーパレス化、作業品質の向上を実現する、スマートデバイス時代の業務効率化ソリューションです。" />
 <meta name="keywords"　content="ペーパレス化,図面電子化,現場業務,IBM Partnership,ImageGate,スマートデバイス,イメージゲート,ミライト情報システム,図面,画像,点検,報告" />
 <meta name="robots" content="index,follow" />
+<link rel="stylesheet" href="../../css/reset.css">
+<link rel="stylesheet" href="../../css/common.css">
 <link rel="stylesheet" href="../../css/normalize.css" type="text/css" />
 <link rel="stylesheet" href="../../css/style.css" type="text/css">
 <link rel="stylesheet" href="../../css/sec.css" type="text/css">
+<link rel="stylesheet" href="../../css/slicknav.min.css">
 <link rel="shortcut icon" href="../../img/favicon.ico" />
 <!--[if lte IE 6]>
 <script type="text/javascript" src="js/DD_belatedPNG.js">
@@ -44,53 +47,56 @@
   ga('send', 'pageview');
 
 </script>
+
+<script src="../../js/common.js"></script>
+<script src="../../js/swiper.min.js"></script>
+<script src="../../js/jquery.bgswitcher.js"></script>
+<script src="../../js/jquery.slicknav.min.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<script src="../../js/top.js"></script>
+<script>
+  var isSupportPicture = !!window.HTMLPictureElement;
+  if(!isSupportPicture){
+    document.createElement( "picture" );
+    document.write('<script src="assets/js/picturefill.min.js" async><\/script>');
+  }
+</script>
+
 </head>
 
 <body id="product" class="sec">
 
+  <header class="hdr_wrap">
+    <div class="hdr_inr">
+      <div class="hdr_logo">
+        <h1><a href="https://www.miraitsystems.jp/index.html"><img class="pc_block" src="../../../assets/images/logo.png" alt="株式会社ミライト情報システムロゴ"><img class="sp_block" src="../../../assets/images/sp/logo.png" alt="株式会社ミライト情報システムロゴ"></a></h1>
+      </div>
+      <div class="hdr_gnav">
+        <ul id="gnav" class="hdr_gnav_list">
+          <li class="hdr_gnav_item"><a href="https://www.miraitsystems.jp/index.html">ホーム</a></li>
+          <li class="hdr_gnav_item"><a href="https://www.miraitsystems.jp/product/">事業紹介</a></li>
+          <li class="hdr_gnav_item"><a href="https://www.miraitsystems.jp/news/">ニュース</a></li>
+          <li class="hdr_gnav_item"><a href="https://www.miraitsystems.jp/event/">イベント・セミナー</a></li>
+          <li class="hdr_gnav_item"><a href="https://www.miraitsystems.jp/company/">会社情報</a></li>
+          <li class="hdr_gnav_item"><a href="https://www.miraitsystems.jp/job/">採用情報</a></li>
+          <li class="hdr_gnav_item"><a href="https://www.miraitsystems.jp/contact/">お問い合わせ</a></li>
+          <li class="hdr_gnav_item"><a href="https://www.miraitsystems.jp/en/" class="lang_switch">English</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <!-- /header -->
 <div id="wrap">
-<header>
-<h1><a href="../../index.html"><img src="../../img/common/logo.jpg" width="343" height="51" alt="株式会社ミライト情報システム"/></a></h1>
-<div class="english"><a href="../../en/"><img src="../../img/common/btn_en.gif" width="110" height="25" alt=""/></a></div>
-<script>
-  (function() {
-    var cx = '000411778068615474582:gzyokfyygy8';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-        '//www.google.com/cse/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
-<gcse:search></gcse:search>
-
-<nav>
-<ul>
-<li class="nav01"><a href="../../index.html">HOME</a></li>
-<li class="nav02"><a href="../../product">事業紹介</a></li>
-<li class="nav03"><a href="../../news">ニュース</a></li>
-<li class="nav04"><a href="../../event">イベント・セミナー</a></li>
-<li class="nav05"><a href="../../company">会社情報</a></li>
-<li class="nav06"><a href="../../job">採用情報</a></li>
-<li class="nav07"><a href="../../contact" target="_blank">お問い合わせ</a></li>
-</ul>
-</nav>
-
-</header>
-<!-- InstanceBeginEditable name="contents" -->
-
 <div id="intro" class="clearfix">
 <div class="wrapH2">
+</div>
 <div class="inner">
 <h2>ImageGate<span style="vertical-align: super;font-size:14px;">&reg;</span><span style="font-size:20px;">（スマートデバイス向け現場型業務効率化ソリューション）</span></h2>
 <ol class="topicPath">
-<li><a href="../../index.html"><img src="../../img/common/icon_home.gif" width="17" height="22" alt="HOME"/></a></li>
+<li><a href="../../index.html"><img src="../../img/common/icon_home.gif" width="15" height="15" alt="HOME"/></a></li>
 <li><a href="../index.html"　alt="ソリューション">Solution</a></li>
 <li>ImageGate</li>
 </ol>
-</div>
 </div>
 
 <div class="lead">
